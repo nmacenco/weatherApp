@@ -1,0 +1,22 @@
+
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0rem 0 1rem 0 ;
+}
+.cardContainer {
+    width: 40rem;
+    border: solid 1px rgb(214, 213, 213);
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.600);
+    margin: 0rem 1rem 1rem 1rem;
+
+    padding: 1.5rem 2rem;
+
+
+}
+
