@@ -11,7 +11,7 @@ function CityDetail() {
   console.log(city);
   useEffect(() => {
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?id=${ciudadId}&appid=${ApiKey}&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?id=${ciudadId}&appid=${ApiKey}&units=metric`
     )
       .then((response) => response.json())
       .then((data) =>
