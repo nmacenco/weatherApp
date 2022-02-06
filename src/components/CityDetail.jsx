@@ -3,9 +3,10 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import c from "../CityDetail.module.css";
 
-const ApiKey = process.env.REACT_APP_WEATHER_API_KEY;
+// const ApiKey = process.env.REACT_APP_WEATHER_API_KEY;
 
 function CityDetail() {
+  const ApiKey = '4ae2636d8dfbdc3044bede63951a019b' ;
   const [city, setCity] = useState();
   const { ciudadId } = useParams();
   console.log(city);

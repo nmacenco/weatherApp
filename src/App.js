@@ -11,13 +11,13 @@ import Nav from './components/Nav.jsx';
 import About from './components/About.jsx' ;
 import CityDetail from './components/CityDetail.jsx'
 
-const ApiKey = process.env.REACT_APP_WEATHER_API_KEY
+// const ApiKey = process.env.REACT_APP_WEATHER_API_KEY
 
 function App() {
   
   
   const [cities , setCities] = useState([]);
-  // const apiKey = '4ae2636d8dfbdc3044bede63951a019b' ;
+  const ApiKey = '4ae2636d8dfbdc3044bede63951a019b' ;
 
   function onSearch (ciudad) {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${ApiKey}&units=metric`)
