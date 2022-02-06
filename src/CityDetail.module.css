@@ -1,0 +1,17 @@
+
+
+    .cardContainer {
+        width: 500px;
+        border: solid 1px rgb(214, 213, 213);
+        border-radius: 8px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.600);
+        margin: 0rem 1rem 1rem 1rem;
+        padding: 2rem 0rem;
+
+
+    }
+
+    .data {
+        margin: 0.1rem 0rem;
+    }

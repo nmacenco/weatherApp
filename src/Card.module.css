@@ -1,0 +1,37 @@
+
+    .iconCrux{
+        background-color: red;
+        width: 1.5rem;
+        border-radius: 0.2rem;
+        position: relative;
+        right: -16.5rem;
+        top: 0.5rem;
+        cursor: pointer;
+        text-align: center;
+    }
+    .iconCrux > i{
+        color: #fff ;
+
+    }
+    .cardContainer {
+        width: 300px;
+        border: solid 1px rgb(214, 213, 213);
+        border-radius: 8px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.600);
+        margin: 0rem 1rem 1rem 1rem;
+
+
+
+    }
+
+    .cardTemperature {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0rem 1rem;
+        padding-bottom: 1rem;
+        /* color: #fff ; */
+    }
+    .cardTemperature > img {
+    }

@@ -1,0 +1,22 @@
+
+body {
+    background-color:rgb(5, 8, 15);
+}
+.app {
+    height: 100vh;
+    /* background-image: url('https://cdn.pixabay.com/photo/2021/01/10/18/01/milky-way-5905903_960_720.jpg'); */
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/24/03/41/starry-sky-2675322__340.jpg');
+    /* background-image: url('https://cdn.pixabay.com/photo/2016/09/08/20/52/starry-sky-1655503__340.jpg'); */
+    object-fit: cover;
+}
+.app > nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

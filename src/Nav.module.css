@@ -1,0 +1,39 @@
+/* #logoHenry {
+  margin-right: 20px;
+} */
+
+.navBar {
+  display: flex;
+  /* background-color: aquamarine; */
+  justify-self: flex-end;
+  align-items: center;
+}
+.navBar div {
+  display: flex;
+  width: 100%;
+  /* max-width: 22rem; */
+  background-color: aquamarine;
+}
+.navBar div Link {
+  list-style: none;
+}
+.navBar div div {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  padding: 30px 10px 35px 10px;
+}
+
+.navBar img {
+  width: 50px;
+  height: 50px;
+}
+
+@media  (max-width: 600px) {
+
+  .navBar div div {
+    font-size: 1rem;
+
+  }
+}
+
