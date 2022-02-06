@@ -12,7 +12,7 @@
   display: flex;
   width: 100%;
   /* max-width: 22rem; */
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 .navBar div Link {
   list-style: none;
