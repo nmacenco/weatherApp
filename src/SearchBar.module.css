@@ -44,3 +44,19 @@
     
     }
   }
+@media  (max-width: 350px) {
+    .searchBar {
+        width: 10rem;
+        box-sizing: border-box;
+    }
+    .searchBar > input{
+    width: 6rem;
+    font-size: 0.6rem;
+    
+    }
+    .searchBar > button{
+        width: 3rem;
+        font-size: 0.4rem ;
+    
+    }
+  }

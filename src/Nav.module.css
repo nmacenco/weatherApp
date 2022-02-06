@@ -33,10 +33,18 @@
 }
 
 @media  (max-width: 600px) {
-
+  .navBar div {
+    margin-left: 0;
+  }
   .navBar div div {
     font-size: 1rem;
 
+  }
+}
+@media  (max-width: 350px) {
+  .navBar div div {
+    font-size: 0.7rem;
+    text-align: center;
   }
 }
 
