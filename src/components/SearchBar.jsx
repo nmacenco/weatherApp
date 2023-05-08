@@ -17,8 +17,8 @@ export default function SearchBar({onSearch}) {
 
     }} 
     className={`${c.searchBar}`}>
-      <input onChange={handleChange} placeholder='Ciudad...'></input>
-      <button>Agregar</button>
+      <input onChange={handleChange} placeholder='City...'></input>
+      <button>Add City</button>
     </form>
   )
   // return <div>Search Bar Component</div>
